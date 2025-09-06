@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dark Investimento — Clube VIP de Multiplicação</title>
+  <meta name="description" content="Plataforma de investimentos exclusiva. Multiplicação de oportunidades, dopamina visual e acesso VIP imediato." />
+  <style>
+    :root{
+      --bg:#0a001a; --panel:#1b002f; --accent:#9b00ff; --muted:#c8b8f5; --glass:rgba(255,255,255,0.03);
+      --maxw:1200px; --radius:16px; --fw: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:var(--fw);background:linear-gradient(180deg,#05000f,#0a001a);color:#f0ebff}
+    a{color:var(--accent);text-decoration:none}
+    .wrap{max-width:var(--maxw);margin:36px auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:60px;height:60px;border-radius:14px;background:linear-gradient(135deg,#1c0033,#2a004f);display:flex;align-items:center;justify-content:center;border:2px solid rgba(155,0,255,0.4)}
+    .logo b{color:var(--accent);font-size:22px}
+    h1{font-size:32px;margin:6px 0 0}
+    p.lead{color:var(--muted);margin:6px 0 0}.hero{display:grid;grid-template-columns:1fr 450px;gap:28px;align-items:start;margin-top:28px}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(155,0,255,0.2);padding:28px;border-radius:var(--radius);box-shadow:0 8px 40px rgba(0,0,0,0.7);transition:0.3s}
+.card:hover{transform:translateY(-4px)}
+
+.features{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
+.chip{background:var(--glass);padding:10px 16px;border-radius:999px;font-size:14px;color:var(--muted);font-weight:600}
+
+.stat{display:flex;gap:12px;align-items:center}
+.stat strong{font-size:22px;color:#fff}
+.stat span{display:block;font-size:13px;color:var(--muted)}
+
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-top:20px}
+.plan-card{background:rgba(255,255,255,0.02);padding:16px;border-radius:12px;text-align:center;transition:0.3s;cursor:pointer}
+.plan-card:hover{background:rgba(155,0,255,0.15);transform:translateY(-4px)}
+.plan-amount{font-size:24px;font-weight:700;margin-bottom:6px}
+.plan-return{font-size:18px;color:var(--accent);font-weight:600}
+
+.cta{display:flex;gap:12px;align-items:center;margin-top:12px}
+.btn{background:linear-gradient(90deg,var(--accent),#6f00ff);color:#fff;padding:14px 20px;border-radius:16px;font-weight:700;border:none;cursor:pointer;font-size:16px;transition:0.2s}
+.btn:hover{filter:brightness(1.1)}
+
+footer{margin-top:36px;color:var(--muted);font-size:13px;text-align:center}
+
+@media (max-width:950px){.hero{grid-template-columns:1fr;}.wrap{padding:16px}.logo{width:50px;height:50px}.card{padding:20px}}
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo"><b>DI</b></div>
+        <div>
+          <div style="display:flex;align-items:center;gap:8px"><strong>Dark Investimento</strong><span style="background:#2a003f;padding:4px 10px;border-radius:8px;font-size:12px;color:var(--muted)">Clube VIP</span></div>
+          <p class="lead">Ganância liberada · Oportunidades exclusivas · Suporte VIP</p>
+        </div>
+      </div>
+    </header><section class="hero">
+  <div class="card">
+    <h1>Multiplique seu investimento agora</h1>
+    <p class="lead">Entre no clube mais seleto e veja oportunidades que despertam seu lado mais ambicioso. Cada plano é uma chance de multiplicar ganhos instantaneamente.</p>
+
+    <div class="features">
+      <div class="chip">Exclusivo</div>
+      <div class="chip">Ganhos Rápidos</div>
+      <div class="chip">VIP WhatsApp</div>
+      <div class="chip">Acesso Secreto</div>
+    </div>
+
+    <div class="plans">
+      <div class="plan-card">
+        <div class="plan-amount">R$10</div>
+        <div class="plan-return">R$20</div>
+      </div>
+      <div class="plan-card">
+        <div class="plan-amount">R$50</div>
+        <div class="plan-return">R$100</div>
+      </div>
+      <div class="plan-card">
+        <div class="plan-amount">R$100</div>
+        <div class="plan-return">R$200</div>
+      </div>
+      <div class="plan-card">
+        <div class="plan-amount">R$300</div>
+        <div class="plan-return">R$600</div>
+      </div>
+      <div class="plan-card">
+        <div class="plan-amount">R$1.000</div>
+        <div class="plan-return">R$2.000</div>
+      </div>
+      <div class="plan-card">
+        <div class="plan-amount">R$2.000</div>
+        <div class="plan-return">R$4.000</div>
+      </div>
+      <div class="plan-card">
+        <div class="plan-amount">R$3.000</div>
+        <div class="plan-return">R$6.000</div>
+      </div>
+    </div>
+
+    <div class="cta">
+      <a class="btn" href="https://wa.me/5511966562941?text=Ol%C3%A1%2C%20quero%20entrar%20no%20clube%20VIP" target="_blank">Acessar VIP — WhatsApp</a>
+    </div>
+  </div>
+
+  <aside>
+    <div class="card">
+      <h3>Fale com nosso time VIP</h3>
+      <p style="color:var(--muted);font-size:14px">Valide seu acesso e receba instruções imediatas via WhatsApp.</p>
+      <a class="btn" href="https://wa.me/5511966562941?text=Ol%C3%A1%2C%20quero%20meu%20acesso%20VIP" target="_blank">WhatsApp VIP</a>
+    </div>
+  </aside>
+</section>
+
+<footer>
+  <div style="max-width:700px;margin:0 auto">© <span id="year"></span> Dark Investimento — Clube VIP. Exclusivo e seleto.</div>
+</footer>
+
+  </div>  <script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script></body>
+</html>
